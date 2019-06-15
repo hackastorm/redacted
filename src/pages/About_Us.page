@@ -1,0 +1,40 @@
+<apex:page sidebar="false" >
+
+<html>
+
+<head>
+  <title>Inventory Management System</title>
+</head>
+
+<body>
+ <div class="content" align="center">
+        <h1 ><b><font size="10" color="biege">[Redacted]*</font></b></h1><br/>
+  </div>
+  <div id="main">
+    <div id="site_content">
+      <div class="gallery" align="center">
+          <apex:image id="theImage" value="{!$Resource.inventorymgmt}" width="60%" height="300"/>
+      </div>
+     
+      <div class="content" align="center">
+      <h4><b><font size="5" color="black" >Welcome to Inventory Management System</font></b></h4></div>
+      <div class="content">   <p><font size="4" >You are spending too many people and too much time to manage your business. [Redacted]* does for you what you spend the most unproductive time on. 
+It is a market network of SMEs and manufacturing businesses. Want to create a purchase order, create an order confirmation, or ask for quotations and compare them? Now do all of this with [Redacted]* with a few clicks. 
+It’s a business software that acts as a manufacturing assistant.
+It tracks your inventory, automates repetitive tasks, gives you all the data in one place. 
+[Redacted]* maps each inventory right from receiving a PO, to production, and till it is out for delivery.
+
+Make your business more discover-able and find new suppliers and customers. Build your business profile and become more credible in the market.</font></p>
+         </div>
+         <div id="sidebar_container">
+        <div class="sidebar" align="center">
+          
+         <p><font size="3" color="blue"> See the design of our website.Take a look around and let us know what you want.<br /></font></p>
+        </div>
+ 
+      </div></div>
+    </div>
+</body>
+</html>
+
+</apex:page>

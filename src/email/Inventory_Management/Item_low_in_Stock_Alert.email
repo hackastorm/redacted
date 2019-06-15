@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Hi Admin,</h1>
+<p>{!Item__c.Name} has currently reached below a threshold of 50.<br/>
+ Restock the item before it goes out of stock.</p>
+
+
+Best Regards,<br/>
+[Redacted]* 
+
+</body>
+</html>

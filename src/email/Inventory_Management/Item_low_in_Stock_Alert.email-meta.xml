@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This email is fired when the item is low on stock</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Item low in Stock Alert</name>
+    <style>none</style>
+    <subject>ALERT! Item low in stock</subject>
+    <textOnly>Hi Admin,
+
+{!Item__c.Name} has currently reached below a threshold of 50.
+Restock the item before it goes out of stock.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

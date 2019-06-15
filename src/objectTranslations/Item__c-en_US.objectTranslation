@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Item</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Items</value>
+    </caseValues>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Fashion</masterLabel>
+            <translation><!-- Fashion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gadgets</masterLabel>
+            <translation><!-- Gadgets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lifestyle</masterLabel>
+            <translation><!-- Lifestyle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Toys</masterLabel>
+            <translation><!-- Toys --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Distributor --></label>
+        <name>Distributor__c</name>
+        <relationshipLabel><!-- Items --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Items Purchased --></label>
+        <name>Items_Purchased__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity Dispatched --></label>
+        <name>Quantity_Dispatched__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stock Remaining --></label>
+        <name>Stock_Remaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sub Category --></label>
+        <name>Sub_Category__c</name>
+        <picklistValues>
+            <masterLabel>DSLR</masterLabel>
+            <translation><!-- DSLR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denims</masterLabel>
+            <translation><!-- Denims --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>E-books</masterLabel>
+            <translation><!-- E-books --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Men</masterLabel>
+            <translation><!-- Men --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunglasses</masterLabel>
+            <translation><!-- Sunglasses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tablets</masterLabel>
+            <translation><!-- Tablets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Textbooks</masterLabel>
+            <translation><!-- Textbooks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trousers</masterLabel>
+            <translation><!-- Trousers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Women</masterLabel>
+            <translation><!-- Women --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Item Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
